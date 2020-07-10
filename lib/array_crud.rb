@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  cryptids ["mothman", "chupacabra", "lochness monster", "bigfoot"]
+  cryptids = ["mothman", "chupacabra", "lochness monster", "bigfoot"]
 end
 
 def add_element_to_end_of_array(array, element)
