@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  cryptids = [mothman, chupacabra, lochness_monster, bigfoot]
+  cryptids [mothman, chupacabra, lochness_monster, bigfoot]
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push = [jackalope]
+  array.push 
 end
 
 def add_element_to_start_of_array(array, element)
-   array.unshift = [goatman]
+   array.unshift 
 end
 
 def remove_element_from_end_of_array(array)
