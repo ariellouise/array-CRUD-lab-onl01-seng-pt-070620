@@ -6,7 +6,8 @@ def create_an_array
   cryptids = ["mothman", "chupacabra", "lochness monster", "bigfoot"]
 end
 
-def add_element"arrays!"
+def add_element_to_end_of_array(array, element)
+  array.last "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
