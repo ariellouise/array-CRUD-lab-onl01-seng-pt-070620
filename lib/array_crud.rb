@@ -1,25 +1,25 @@
 def create_an_empty_array
-  []
+  create_an_empty_array = []
 end
 
 def create_an_array
-  [mothman, chupacabra, lochness monster, bigfoot]
+  create_an_array = [mothman, chupacabra, lochness monster, bigfoot]
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push [jackalope]
+  add_element_to_end_of_array.push = [jackalope]
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift [goatman]
+   add_element_to_start_of_array.unshift = [goatman]
 end
 
 def remove_element_from_end_of_array(array)
-  array.pop
+  remove_element_from_end_of_array.pop = 
 end
 
 def remove_element_from_start_of_array(array)
-  array.shift
+  remove_element_from_start_of_array.shift =
 end
 
 def retrieve_element_from_index(array, index_number)
